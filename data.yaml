@@ -1,0 +1,13 @@
+train: D:\AI COURSE TAMIL\First project\BATTERY LABEL. YOLO8\train\images
+val: D:\AI COURSE TAMIL\First project\BATTERY LABEL. YOLO8\valid\images
+test: D:\AI COURSE TAMIL\First project\BATTERY LABEL. YOLO8\test\images
+
+nc: 4
+names: ['BATTERYNOLABEL', 'BATTERYOKLABEL', 'BATTERYREJECT', 'BATTERYREJECT']
+
+roboflow:
+  workspace: vision-99ksq
+  project: bismillah-lulus-wisuda-128-aamiin
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vision-99ksq/bismillah-lulus-wisuda-128-aamiin/dataset/6
